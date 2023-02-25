@@ -10,7 +10,7 @@ const Tab = createBottomTabNavigator();
 
 function Tabs() {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator initialRouteName="Market">
       <Tab.Screen
         name="Home"
         component={Home}
