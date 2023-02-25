@@ -15,6 +15,9 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
   },
+  star: {
+    marginRight: 15,
+  },
 });
 
 export default styles;
