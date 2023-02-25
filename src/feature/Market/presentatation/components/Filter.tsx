@@ -1,6 +1,6 @@
 import { View, FlatList } from "react-native";
 import React from "react";
-import { filterData } from "../../../../shared/util";
+import { filterData } from "../../../../shared/constant/filter.constant";
 import Pill from "./Pill";
 import styles from "./filter.style";
 
