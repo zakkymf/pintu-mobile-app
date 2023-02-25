@@ -11,6 +11,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     marginRight: 10,
   },
+  icon: {
+    marginRight: 5,
+    marginLeft: -5,
+  },
 });
 
 export default styles;

@@ -18,7 +18,7 @@ function Tabs() {
           headerShown: false,
           tabBarActiveTintColor: "blue",
           tabBarInactiveTintColor: "grey",
-          tabBarIcon: ({ tintColor }) => (
+          tabBarIcon: ({ tintColor }: any) => (
             <Ionicons name="home-outline" size={20} color={tintColor} />
           ),
         }}
@@ -28,7 +28,7 @@ function Tabs() {
         component={Discover}
         options={{
           headerShown: false,
-          tabBarIcon: ({ tintColor }) => (
+          tabBarIcon: ({ tintColor }: any) => (
             <Ionicons name="book-outline" size={20} color={tintColor} />
           ),
         }}
@@ -38,7 +38,7 @@ function Tabs() {
         component={Market}
         options={{
           headerShown: false,
-          tabBarIcon: ({ tintColor }) => (
+          tabBarIcon: ({ tintColor }: any) => (
             <Ionicons name="stats-chart-outline" size={20} color={tintColor} />
           ),
         }}
@@ -48,7 +48,7 @@ function Tabs() {
         component={Wallet}
         options={{
           headerShown: false,
-          tabBarIcon: ({ tintColor }) => (
+          tabBarIcon: ({ tintColor }: any) => (
             <Ionicons name="wallet-outline" size={20} color={tintColor} />
           ),
         }}
@@ -58,7 +58,7 @@ function Tabs() {
         component={Account}
         options={{
           headerShown: false,
-          tabBarIcon: ({ tintColor }) => (
+          tabBarIcon: ({ tintColor }: any) => (
             <Ionicons name="person-outline" size={20} color={tintColor} />
           ),
         }}

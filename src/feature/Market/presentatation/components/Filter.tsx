@@ -6,7 +6,7 @@ import styles from "./filter.style";
 
 const Filter = () => {
   const renderItem = ({ item }: any) => {
-    return <Pill name={item?.name} logo="" />;
+    return <Pill name={item?.name} logo={item?.icon} />;
   };
 
   return (
