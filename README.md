@@ -2,6 +2,10 @@
 
 pintu-mobile-app is repository for the solutions of assignment to PINTU hiring process.
 
+## Demo
+
+You can download from [here](https://drive.google.com/file/d/1BoRjy_DZPBpL__oVXan8EuXTwcV3wZ-r/view?usp=share_link)
+
 ## Getting Started
 
 To get start this repo, just following these instructions below.
