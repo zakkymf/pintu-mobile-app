@@ -1,4 +1,5 @@
 import { createStackNavigator } from "@react-navigation/stack";
+import Constants from "expo-constants";
 import Tabs from "./Tab";
 
 const Stack = createStackNavigator();
@@ -9,7 +10,10 @@ const Navigation = () => {
       <Stack.Screen
         name="Root"
         component={Tabs}
-        options={{ headerShown: false }}
+        options={{
+          headerShown: false,
+          headerStyle: { marginTop: Constants.statusBarHeight },
+        }}
       />
     </Stack.Navigator>
   );
